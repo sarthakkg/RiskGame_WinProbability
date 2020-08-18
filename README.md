@@ -16,7 +16,7 @@ C) The compared dice are discarded, and if both players still have dice remainin
 
 ## Capital Conquest Mode
 
-A) The game of RISK: Capital Conquest is played in such a way that attacker can roll up to the number of dice they are attacking with (up to 3 dice max in one roll) and the defender can roll up to the number of dice they are defending in their territory (up to 2 dice max in one roll).
+A) The game of RISK: Capital Conquest is played in such a way that attacker can roll up to the number of dice they are attacking with (up to 3 dice max in one roll) and the defender can roll up to the number of dice they are defending in their territory (up to 3 dice max in one roll).
 
 B) The highest rolled offensive die is compared to the highest rolled defensive die, and
    1. the attacker loses if the value of the offensive die <= defense dice,
