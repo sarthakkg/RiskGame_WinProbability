@@ -1,4 +1,6 @@
-# 6/7/2020
+# Sarthak Gupta
+# 6/7/2018
+# Calculates the win probability of a battle in RISK: Capital Conquest
 
 from random import seed
 from random import randint
@@ -9,6 +11,7 @@ defDie = int(input('Number of Defensive Dice: '))
 winDefensive = 0
 winOffensive = 0
 
+# recurvisely runs through the loop 5000 times to check to see how many times this battle was won
 count = 5000
 
 oLeft = 0
@@ -54,10 +57,11 @@ for i in range(0,count):
 
 oLeftAverage = oLeft / count
 
-print('Offensive wins:', winOffensive)
-print('Defensive wins:', winDefensive)
+# print('Offensive wins:', winOffensive)
+# print('Defensive wins:', winDefensive)
+print()
 
-print('Average offensive left:', oLeftAverage - 1)
+print('Predicted offensive troops remaining:', int(oLeftAverage - 1))
 
-print("Probability of winning:", (winOffensive/(winOffensive+winDefensive))*100, "%")
+print("PROBABILITY OF WINNING:", (winOffensive/(winOffensive+winDefensive))*100, "%")
 print()
