@@ -1,12 +1,12 @@
 # RiskGame_WinProbability
 
-RiskGame_WinProbability is a Python algoriothim to determine the statistical probability of winning a battle in RISK between a certain number of offensive and defensive troops.
+RiskGame_WinProbability is a Python algorithm to determine the statistical probability of winning a battle in RISK between a certain number of offensive and defensive troops.
 
 # Usage
 
 ## World Domination Mode
 
-A) The game of RISK: World Domination is played in such a way that attacker can roll upto the number of dice they are attacking with (upto 3 dice max in one roll) and the defender can roll upto the number of dice they are defending in their territory (upto 2 dice max in one roll).
+A) The game of RISK: World Domination is played in such a way that attacker can roll up to the number of dice they are attacking with (up to 3 dice max in one roll) and the defender can roll up to the number of dice they are defending in their territory (up to 2 dice max in one roll).
 
 B) The highest rolled offensive die is compared to the highest rolled defensive die, and
    1. the attacker loses if the value of the offensive die <= defense dice,
@@ -16,7 +16,7 @@ C) The compared dice are discarded, and if both players still have dice remainin
 
 ## Capital Conquest Mode
 
-A) The game of RISK: Capital Conquest is played in such a way that attacker can roll upto the number of dice they are attacking with (upto 3 dice max in one roll) and the defender can roll upto the number of dice they are defending in their territory (upto 2 dice max in one roll).
+A) The game of RISK: Capital Conquest is played in such a way that attacker can roll up to the number of dice they are attacking with (up to 3 dice max in one roll) and the defender can roll up to the number of dice they are defending in their territory (up to 2 dice max in one roll).
 
 B) The highest rolled offensive die is compared to the highest rolled defensive die, and
    1. the attacker loses if the value of the offensive die <= defense dice,

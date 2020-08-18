@@ -11,7 +11,7 @@ defDie = int(input('Number of Defensive Dice: '))
 winDefensive = 0
 winOffensive = 0
 
-# recurvisely runs through the loop 5000 times to check to see how many times this battle was won
+# recursively runs through the loop 5000 times to check to see how many times this battle was won
 count = 5000
 
 oLeft = 0
