@@ -63,5 +63,5 @@ print()
 
 print('Predicted offensive troops remaining:', int(oLeftAverage - 1))
 
-print("PROBABILITY OF WINNING:", (winOffensive/(winOffensive+winDefensive))*100, "%")
+print("PROBABILITY OF WINNING:", round((winOffensive/(winOffensive+winDefensive))*100, 2), "%")
 print()
